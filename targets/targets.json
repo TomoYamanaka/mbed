@@ -2449,6 +2449,17 @@
         "default_lib": "std",
         "release_versions": []
     },
+    "GR_LYCHEE": {
+        "supported_form_factors": ["ARDUINO"],
+        "core": "Cortex-A9",
+        "program_cycle_s": 2,
+        "extra_labels": ["RENESAS", "RZ_A1XX", "RZA1UL", "MBRZA1LU"],
+        "supported_toolchains": ["ARM", "GCC_ARM", "IAR"],
+        "inherits": ["Target"],
+        "device_has": ["ANALOGIN", "CAN", "I2C", "I2CSLAVE", "I2C_ASYNCH", "INTERRUPTIN", "PORTIN", "PORTINOUT", "PORTOUT", "PWMOUT", "RTC", "SERIAL", "SERIAL_ASYNCH", "SERIAL_FC", "SPI", "SPISLAVE", "SPI_ASYNCH", "STDIO_MESSAGES"],
+        "features": ["LWIP"],
+        "release_versions": ["2", "5"]
+    },
     "MAXWSNENV": {
         "inherits": ["Target"],
         "core": "Cortex-M3",
